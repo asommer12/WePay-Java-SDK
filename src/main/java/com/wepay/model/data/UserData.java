@@ -1,14 +1,17 @@
 package com.wepay.model.data;
 
+import com.wepay.model.data.RbitData;
+
 public class UserData {
 	
 	public String email; 		
 	public String scope; 			
-	public String first_name; 		
-	public String last_name; 		
-	public String original_ip; 				
-	public String original_device; 	
-	public String redirect_uri; 
-	public String callback_uri;	
-	
+	public String firstName; 		
+	public String lastName; 		
+	public String originalIp; 				
+	public String originalDevice;
+	public Long tosAcceptanceTime;
+	public String redirectUri; 
+	public String callbackUri;
+    public RbitData[] rbits;
 }
